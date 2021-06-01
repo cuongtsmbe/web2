@@ -1,0 +1,106 @@
+.vertical-nav {
+    min-width: 17rem;
+    width: 23rem;
+    /* height: 100vh; */
+    position: fixed;
+    top: 60px;
+    left: 5px;
+    border-right: 2px solid #eaeaea;
+    border-bottom: 2px solid #eaeaea;
+    border-top: 2px solid #eaeaea;
+    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); */
+    transition: all 0.4s;
+}
+
+.page-content {
+    width: calc(100% - 17rem);
+    margin-left: 25rem;
+    margin-right: 25px;
+    transition: all 0.4s
+}
+
+
+/* for toggle behavior */
+
+#sidebar.active {
+    margin-left: -17rem;
+}
+
+#content.active {
+    width: 100%;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -17rem;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+        margin: 0;
+    }
+    #content.active {
+        margin-left: 17rem;
+        width: calc(100% - 17rem);
+    }
+}
+
+
+/*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSE
+  * ==========================================
+  *
+  */
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.separator {
+    margin: 3rem 0;
+    border-bottom: 1px dashed #fff;
+}
+
+.text-uppercase {
+    letter-spacing: 0.1em;
+}
+
+.text-gray {
+    color: #aaa;
+}
+
+
+/* .vertical-nav > ul > li {
+	border-bottom:0.2px solid black;
+} */
+
+.group_layout {
+    display: flex;
+    flex-direction: row;
+}
+
+#content>table tr {
+    width: 100%;
+}
+
+#content>table tr td {
+    /* border:1px solid black; */
+    padding: 10px 10px;
+    width: 25%;
+}
+
+@media screen and (min-device-width:800px) and (max-device-width:1500px) {
+    /* .group_layout {
+        padding: 20px;
+        margin-right: 200px;
+    } */
+    /* #content {
+        margin-right: 200px;
+    } */
+}

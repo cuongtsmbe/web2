@@ -1,0 +1,8 @@
+.image_product{
+    display:flex;
+
+
+}
+.image_product>option{
+    border:5px solid red;
+}

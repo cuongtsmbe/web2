@@ -1,0 +1,12 @@
+<?php 
+      if(!isset($_SESSION)){
+        session_start();
+        }
+        if(isset($_SESSION['username_admin'])){
+            unset($_SESSION['username_admin']);
+            unset($_SESSION['choose_admin']);
+        }
+        sleep(1);
+        header('location:./../../index.php');
+    session_write_close();
+?>

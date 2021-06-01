@@ -1,0 +1,123 @@
+.Group_Product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.Title_product {
+    /* height:30px; */
+    display: flex;
+    /* border:1px solid gray; */
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.Title_product a {
+    font-size: 12px;
+    color: rgb(71, 96, 208);
+}
+
+.List_product {
+    /* border:1px solid rgb(232, 111, 111); */
+    width: 100%;
+    padding: 0px 43px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* .List_product .Item{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    width:25%;
+    padding:20px 0px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding-left:10px;
+    cursor: pointer;  
+} */
+
+.List_product .Item {
+    width: 200px;
+    box-shadow: 2px 2px 30px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 25px;
+}
+
+.List_product .Item:hover {
+    /* box-shadow:2px 2px rgb(10, 10, 10);  */
+    box-shadow: -20px 0 15px rgb(0 0 0 / 20%);
+}
+
+.Item h5 {
+    width: 97%;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.giam_gia_img {
+    position: relative;
+    /* height:300px; */
+    width: 100%;
+}
+
+.price {
+    margin-top: 10px;
+    padding-left: 15px;
+    letter-spacing: .5px;
+}
+
+.giam_gia_img img {
+    width: 100%;
+    height: 256px;
+}
+
+.giam_gia_img .percent {
+    display: block;
+    color: #fff;
+    background-color: #f10;
+    position: absolute;
+    font-size: 12px;
+    top: 15px;
+    right: 15px;
+    padding: 3px 5px;
+    z-index: 100;
+}
+
+.price .price_old {
+    text-decoration: line-through;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.price .price_new {
+    color: #fc2330;
+    font-size: 15px;
+}
+
+.XemThem {
+    margin-top: 40px;
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.XemThem .XemThem_Product {
+    background-color: rgb(161, 199, 214);
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2px 2px rgb(187, 187, 187);
+    color: rgb(79, 82, 82);
+    font-weight: bold;
+    padding: 10px;
+    /* cho nội dung ra giữa thẻ a */
+}

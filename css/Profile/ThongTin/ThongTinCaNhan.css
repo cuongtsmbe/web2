@@ -1,0 +1,170 @@
+body {  
+    background: #F1F3FA;
+    }
+     
+     
+    .profile {  margin: 20px 0;}
+     
+    .profile-sidebar {  
+    padding: 20px 0 10px 0;  
+    background: #fff;
+    }
+     
+     
+    .profile-userpic img {  
+    float: none;  
+    margin: 0 auto;  
+    width: 50%;  
+    height: 50%;  
+    -webkit-border-radius: 50% !important;  
+    -moz-border-radius: 50% !important;  
+    border-radius: 50% !important;
+    }
+     
+     
+    .profile-usertitle {  
+    text-align: center;  
+    margin-top: 20px;
+    }
+     
+     
+    .profile-usertitle-name {  
+    color: #5a7391;  
+    font-size: 16px;  
+    font-weight: 600;  
+    margin-bottom: 7px;
+    }
+     
+     
+    .profile-usertitle-job {  
+    text-transform: uppercase;  
+    color: #5b9bd1;  
+    font-size: 12px;  
+    font-weight: 600;  
+    margin-bottom: 15px;
+    }
+     
+     
+    .profile-userbuttons {  
+    text-align: center;  
+    margin-top: 10px;
+    }
+     
+     
+    .profile-userbuttons .btn {  
+    text-transform: uppercase;  
+    font-size: 11px;  
+    font-weight: 600;  
+    padding: 6px 15px;  
+    margin-right: 5px;
+    }
+     
+     
+    .profile-userbuttons .btn:last-child {  
+    margin-right: 0px;
+    }    
+    .profile-usermenu {  
+    margin-top: 30px;
+    }
+     
+    .profile-usermenu ul li {  
+    border-bottom: 1px solid #f0f4f7;
+    }
+     
+     
+    .profile-usermenu ul li:last-child {  
+    border-bottom: none;
+    }
+     
+    .profile-usermenu ul li a {  
+    color: #93a3b5;  
+    font-size: 14px;  
+    font-weight: 400;
+    width:200px;
+    }
+     
+     
+    .profile-usermenu ul li a i {  
+    margin-right: 8px;  
+    font-size: 14px;
+    }
+     
+    .profile-usermenu ul li a:hover {  
+    background-color: #fafcfd;  
+    color: #5b9bd1;
+    }
+     
+     
+    .profile-usermenu ul li.active {  
+    border-bottom: none;
+    }
+     
+     
+    .profile-usermenu ul li.active a {  
+    color: #5b9bd1;  
+    background-color: #f6f9fb;  
+    border-left: 2px solid #5b9bd1;  
+    margin-left: -2px;
+    }
+     
+     
+    .profile-content {  
+    padding: 20px;  
+    background: #fff;  
+    min-height: 460px;
+    }
+
+    tr td{
+        padding:0px 20px;
+        width:400px;
+    }
+    input{
+        width:100%;
+    }
+  .donhang:hover{
+    cursor: pointer;
+  }
+  #warning_pass,#warning_user,#warning_pass_old {
+    color: red;
+    padding: 10px 10px;
+}
+#warning_success{
+  color:rgb(47, 180, 47);
+}
+#profile_name{
+
+  height:100%;
+  width:100%;
+}
+td img {
+  width: 100px;
+  height: 100px;
+}
+.name_product_sp{
+  width:250px;
+  overflow: hidden;
+}
+.group_sp_check{
+  height:500px;
+  width:100%;
+  overflow: scroll;
+  margin-bottom:50px;
+}
+.sum_donhang,#title_donhang{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: bold;
+  font-size:18px;
+}
+
+.group_sp_check table {       
+  font-family: arial, sans-serif;
+}
+.group_sp_check table > th, td {
+  text-align: left;
+  border-top: 1px solid #dee2e6;
+}
+ .group_sp_check table > tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}

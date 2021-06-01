@@ -1,0 +1,25 @@
+.alert_delete{
+    height:80px;
+    width:300px;
+    box-shadow:2px 3px black;
+    position: fixed;
+    z-index:100;
+    top:30%;
+    left:40%;
+    background-color:rgb(163, 231, 248);
+}
+.button_dele{
+    margin-top:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.button_dele button{
+    width:90px;
+}
+.title_tb{
+    padding-top:10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
